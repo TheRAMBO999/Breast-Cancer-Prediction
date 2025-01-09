@@ -1,6 +1,6 @@
 # Breast Cancer Prediction
 ## Table of Contents
-- [What is Breast Cancer Prediction?](#what-is-breast-cancer-prediction-?)
+- [What is Breast Cancer Prediction?](#what-is-breast-cancer-prediction?)
 - [Key Aspects](#key-aspects)
   - [Risk Assessment](#1-risk-assessment)
   - [Genetic Testing](#2-genetic-testing)
