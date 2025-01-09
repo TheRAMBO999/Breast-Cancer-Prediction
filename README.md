@@ -86,23 +86,23 @@ Health care data, especially patient-related information, is sensitive and subje
  Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
 
 ## Steps Involved:
-### 1.Data Collection:
+### 1. Data Collection:
 Gather a dataset containing features related to breast cancer. Common features include patient age, tumor size, tumor grade, presence of receptors (estrogen, progesterone, HER2), and other relevant clinical and pathological characteristics.
-### 2.Data Preprocessing:
+### 2. Data Preprocessing:
 Clean and preprocess the data to handle missing values, normalize features, and address any data quality issues.
-### 3.Feature Selection:
+### 3. Feature Selection:
 Choose the most relevant features for building the predictive model. Feature selection helps improve the model's performance and reduces complexity.
 Univariate feature selection using Logistic Regression,  SVM, Naive Bayes, Decision Tree, Random Forest.
-### 4.Splitting the Data:
+### 4. Splitting the Data:
 Divide the dataset into training and testing sets. The training set is used to train the model, and the testing set is used to evaluate its performance.
-### 5.Choosing a Model:
+### 5. Choosing a Model:
 Select a pattern recognition or machine learning model suitable for classification tasks. Common models for binary classification like breast cancer prediction include:
-Logistic Regression
-Support Vector Machine
-Naive Bayes
-Decision Tree
-Random Forest
-### 6.Model Training:
+Logistic Regression
+Support Vector Machine
+Naive Bayes
+Decision Tree
+Random Forest
+### 6. Model Training:
 Train the selected model using the training dataset. The model learns patterns and relationships between input features and the target variable (presence or absence of breast cancer).
 ### 7.Model Evaluation:
 Evaluate the model's performance using the testing dataset. Common evaluation metrics include:
@@ -111,13 +111,13 @@ Recall
 Specificity
 Precision
 F1 Score
-### 8.Hyperparameter Tuning:
+### 8. Hyperparameter Tuning:
 Fine-tune the model's hyperparameters to optimize its performance. This step may involve using techniques like grid search or random search.
-### 9.Validation:
+### 9. Validation:
 Perform cross-validation to ensure the model's robustness and generalizability. This involves training and evaluating the model on multiple subsets of the data.
-### 10.Deployment:
+### 10. Deployment:
 Once satisfied with the model's performance, deploy it to make predictions on new, unseen data.
-### 11.Monitoring and Updating:
+### 11. Monitoring and Updating:
 Monitor the model's performance over time and update it as needed to maintain accuracy, especially if the data distribution changes.  
 
 ## Models Used:
