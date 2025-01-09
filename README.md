@@ -1,6 +1,6 @@
 # Breast Cancer Prediction
 ## Table of Contents
-- [What is Breast Cancer Prediction?](#what-is-breast-cancer-prediction?)
+- [What is Breast Cancer Prediction ?](#what-is-breast-cancer-prediction-?)
 - [Key Aspects](#key-aspects)
   - [Risk Assessment](#1-risk-assessment)
   - [Genetic Testing](#2-genetic-testing)
@@ -35,7 +35,7 @@
    - [Monitoring and Updating](#11-monitoring-and-updating)
 - [Models Used](#models_used)
 - [Models Performance](#models-performance)
-## What is Breast Cancer Prediction?
+## What is Breast Cancer Prediction ?
 Breast cancer prediction refers to the use of various techniques, technologies, and models to assess the likelihood of an individual developing breast cancer in the future. The primary goal is to identify potential cases of breast cancer at an early stage, allowing for timely intervention and treatment. Predictive models and methods are employed in both clinical and research settings to assist health care professionals in risk assessment, screening, and personalized medicine.
 ## Key Aspects:
 Here are some key aspects of breast cancer prediction:
@@ -132,15 +132,12 @@ Monitor the model's performance over time and update it as needed to maintain ac
 - Hierarchical Clustering
 
 ## Models Performance:
-1.Accuracy:
+### 1. Accuracy:
 
-2.Recall:
+### 2. Recall:
 
-3.Specificity:
+### 3. Specificity:
 
+### 4. Precision:
 
-
-
-4.Precision:
-
-5.F1 Score:
+### 5. F1 Score:
