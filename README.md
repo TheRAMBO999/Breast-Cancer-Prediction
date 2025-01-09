@@ -33,7 +33,7 @@
    - [Validation](#9-validation)
    - [Deployment](#10-deployment)
    - [Monitoring and Updating](#11-monitoring-and-updating)
-- [Models used](#models_used)
+- [Models Used](#models_used)
 - [Models Performance](#models-performance)
 ## What is Breast Cancer Prediction?
 Breast cancer prediction refers to the use of various techniques, technologies, and models to assess the likelihood of an individual developing breast cancer in the future. The primary goal is to identify potential cases of breast cancer at an early stage, allowing for timely intervention and treatment. Predictive models and methods are employed in both clinical and research settings to assist health care professionals in risk assessment, screening, and personalized medicine.
