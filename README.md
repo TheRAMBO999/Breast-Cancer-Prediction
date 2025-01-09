@@ -19,8 +19,22 @@
   - [Interpretability of Models](#7-interpretability-of-models)
   - [Integration into Clinical Work flow](#8-integration-into-clinical-work-flow)
   - [Privacy and Security Concerns](#9-privacy-and-security-concerns)
- - [Libraries Used](#libraries-used)
- - [Dataset Used](#dataset-used) 
+- [Libraries Used](#libraries-used)
+- [Dataset Used](#dataset-used)
+- [Steps Involved](#steps-involved)
+   - [Data Collection](#1-data-collection)
+   - [Data Preprocessing](#2-data-preprocessing)
+   - [Feature Selection](#3-feature-selection)
+   - [Splitting the Data](#4-splitting-the-data)
+   - [Choosing a Model](#5-choosing-a-model)
+   - [Model Training](#6-model-training)
+   - [Model Evaluation](#7-model-evaluation)
+   - [Hyperparameter Tuning](#8-hyperparameter-tuning)
+   - [Validation](#9-validation)
+   - [Deployment](#10-deployment)
+   - [Monitoring and Updating](#11-monitoring-and-updating)
+- [Models used](#models_used)
+- [Models Performance](#models-performance)
 ## What is Breast Cancer Prediction?
 Breast cancer prediction refers to the use of various techniques, technologies, and models to assess the likelihood of an individual developing breast cancer in the future. The primary goal is to identify potential cases of breast cancer at an early stage, allowing for timely intervention and treatment. Predictive models and methods are employed in both clinical and research settings to assist health care professionals in risk assessment, screening, and personalized medicine.
 ## Key Aspects:
@@ -41,7 +55,7 @@ Advances in molecular profiling allow for personalized medicine approaches in br
 ### 7. Regular Screening:
 Regular breast cancer screening, such as mammography and clinical breast examinations, is a key component of early detection and prediction. Screening aims to identify abnormalities before symptoms manifest, allowing for earlier intervention and improved treatment outcomes.
 
-Breast cancer prediction is a multidisciplinary field that combines expertise from oncology, radiology, genetics, and data science. The goal is to improve the accuracy of risk assessments, enable early detection, and ultimately enhance the effectiveness of breast cancer prevention and treatment strategies.
+#### Breast cancer prediction is a multidisciplinary field that combines expertise from oncology, radiology, genetics, and data science. The goal is to improve the accuracy of risk assessments, enable early detection, and ultimately enhance the effectiveness of breast cancer prevention and treatment strategies.
 
 ## Challenges Faced:
 ### 1. Heterogeneity of Breast Cancer:
@@ -64,60 +78,60 @@ Implementing predictive models into clinical practice requires seamless integrat
 Health care data, especially patient-related information, is sensitive and subject to strict privacy regulations. Developing predictive models that comply with privacy laws while still providing useful insights is a challenge in the field of breast cancer prediction.
 
 ## Libraries Used:
-### Pandas,SeaborN,Numpy,Matplotlib,LabelEncoder,StandardScaler,Sklearn
+ Pandas,SeaborN,Numpy,Matplotlib,LabelEncoder,StandardScaler,Sklearn
 
 
 
-Dataset Used:
-        Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
+## Dataset Used:
+ Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
 
-Steps Involved:
-1.Data Collection:
+## Steps Involved:
+### 1.Data Collection:
 Gather a dataset containing features related to breast cancer. Common features include patient age, tumor size, tumor grade, presence of receptors (estrogen, progesterone, HER2), and other relevant clinical and pathological characteristics.
-2.Data Preprocessing:
+### 2.Data Preprocessing:
 Clean and preprocess the data to handle missing values, normalize features, and address any data quality issues.
-3.Feature Selection:
+### 3.Feature Selection:
 Choose the most relevant features for building the predictive model. Feature selection helps improve the model's performance and reduces complexity.
 Univariate feature selection using Logistic Regression,  SVM, Naive Bayes, Decision Tree, Random Forest.
-4.Splitting the Data:
+### 4.Splitting the Data:
 Divide the dataset into training and testing sets. The training set is used to train the model, and the testing set is used to evaluate its performance.
-5.Choosing a Model:
+### 5.Choosing a Model:
 Select a pattern recognition or machine learning model suitable for classification tasks. Common models for binary classification like breast cancer prediction include:
 Logistic Regression
 Support Vector Machine
 Naive Bayes
 Decision Tree
 Random Forest
-6.Model Training:
+### 6.Model Training:
 Train the selected model using the training dataset. The model learns patterns and relationships between input features and the target variable (presence or absence of breast cancer).
-7.Model Evaluation:
+### 7.Model Evaluation:
 Evaluate the model's performance using the testing dataset. Common evaluation metrics include:
-Accuracy
-Recall
-Specificity
-Precision
-F1 Score
-8.Hyperparameter Tuning:
+Accuracy
+Recall
+Specificity
+Precision
+F1 Score
+### 8.Hyperparameter Tuning:
 Fine-tune the model's hyperparameters to optimize its performance. This step may involve using techniques like grid search or random search.
-9.Validation:
+### 9.Validation:
 Perform cross-validation to ensure the model's robustness and generalizability. This involves training and evaluating the model on multiple subsets of the data.
-10.Deployment:
+### 10.Deployment:
 Once satisfied with the model's performance, deploy it to make predictions on new, unseen data.
-11.Monitoring and Updating:
+### 11.Monitoring and Updating:
 Monitor the model's performance over time and update it as needed to maintain accuracy, especially if the data distribution changes.  
 
-Models Used:
-PCA with dimensionality reduction
-Logistic Regression
-Support Vector Machine(SVM)
-Naive Bayes
-Decision Tree
-Random Forest
-DBSCAN
-Parzen Windows
-Hierarchical Clustering
+## Models Used:
+PCA with dimensionality reduction
+Logistic Regression
+Support Vector Machine(SVM)
+Naive Bayes
+Decision Tree
+Random Forest
+DBSCAN
+Parzen Windows
+Hierarchical Clustering
 
-Models Performance:
+## Models Performance:
 1.Accuracy:
 
 2.Recall:
