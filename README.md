@@ -1,15 +1,15 @@
 # Breast Cancer Prediction
 ## Table of Contents
-- [What is Breast Cancer Prediction ?](#what-is-breast-cancer-prediction-?)
+- [What is Breast Cancer Prediction](#what-is-breast-cancer-prediction)
 - [Key Aspects](#key-aspects)
   - [Risk Assessment](#1-risk-assessment)
   - [Genetic Testing](#2-genetic-testing)
   - [Imaging Techniques](#3-imaging-techniques)
-  - [Machine Learning and Data Analytics](#4-machinelearningand-data-analytics)
+  - [Machine Learning and Data Analytics](#4-machine-learning-and-data-analytics)
   - [Clinical Assessments](#5-clinical-assessments)
   - [Personalized Medicine](#6-personalized-medicine)
   - [Regular Screening](#7-regular-screening)
-- [Challenges Faced](#challenges_faced)
+- [Challenges Faced](#challenges-faced)
   - [Heterogeneity of Breast Cancer](#1-heterogeneity-of-breast-cancer)
   - [Limited Data Availability](#2-limited-data-availability)
   - [Imbalanced Datasets](#3-imbalanced-datasets)
@@ -33,9 +33,9 @@
    - [Validation](#9-validation)
    - [Deployment](#10-deployment)
    - [Monitoring and Updating](#11-monitoring-and-updating)
-- [Models Used](#models_used)
+- [Models Used](#models-used)
 - [Models Performance](#models-performance)
-## What is Breast Cancer Prediction ?
+## What is Breast Cancer Prediction:
 Breast cancer prediction refers to the use of various techniques, technologies, and models to assess the likelihood of an individual developing breast cancer in the future. The primary goal is to identify potential cases of breast cancer at an early stage, allowing for timely intervention and treatment. Predictive models and methods are employed in both clinical and research settings to assist health care professionals in risk assessment, screening, and personalized medicine.
 ## Key Aspects:
 Here are some key aspects of breast cancer prediction:
@@ -104,7 +104,7 @@ Select a pattern recognition or machine learning model suitable for classificati
 - Random Forest
 ### 6. Model Training:
 Train the selected model using the training dataset. The model learns patterns and relationships between input features and the target variable (presence or absence of breast cancer).
-### 7.Model Evaluation:
+### 7. Model Evaluation:
 Evaluate the model's performance using the testing dataset. Common evaluation metrics include:
 - Accuracy
 - Recall
@@ -133,11 +133,12 @@ Monitor the model's performance over time and update it as needed to maintain ac
 
 ## Models Performance:
 ### 1. Accuracy:
-
+![Project Image](img1.jpg)
 ### 2. Recall:
-
+![Project Image](img2.jpg)
 ### 3. Specificity:
-
+![Project Image](img3.jpg)
 ### 4. Precision:
-
+![Project Image](img4.jpg)
 ### 5. F1 Score:
+![Project Image](img5.jpg)
