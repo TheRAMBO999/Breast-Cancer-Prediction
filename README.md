@@ -2,7 +2,7 @@
 ## Table of Contents
 - [What is Breast Cancer Prediction](#introduction)
 - [Key Aspects](#key-aspects)
-  - [Risk Management](#1-risk-management)
+  - [Risk Assessment](#1-risk-assessment)
   - [Genetic Testing](#2-genetic-testing)
   - [Imaging Techniques](#3-imaging-techniques)
   - [Machine Learning and Data Analytics](#4-machinelearningand-data-analytics)
