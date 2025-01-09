@@ -1,6 +1,6 @@
 # Breast Cancer Prediction
 ## Table of Contents
-- [What is Breast Cancer Prediction](#introduction)
+- [What is Breast Cancer Prediction?](#what-is-breast-cancer-prediction-?)
 - [Key Aspects](#key-aspects)
   - [Risk Assessment](#1-risk-assessment)
   - [Genetic Testing](#2-genetic-testing)
@@ -19,7 +19,8 @@
   - [Interpretability of Models](#7-interpretability-of-models)
   - [Integration into Clinical Work flow](#8-integration-into-clinical-work-flow)
   - [Privacy and Security Concerns](#9-privacy-and-security-concerns)
-  
+ - [Libraries Used](#libraries-used)
+ - [Dataset Used](#dataset-used) 
 ## What is Breast Cancer Prediction?
 Breast cancer prediction refers to the use of various techniques, technologies, and models to assess the likelihood of an individual developing breast cancer in the future. The primary goal is to identify potential cases of breast cancer at an early stage, allowing for timely intervention and treatment. Predictive models and methods are employed in both clinical and research settings to assist health care professionals in risk assessment, screening, and personalized medicine.
 ## Key Aspects:
@@ -62,8 +63,8 @@ Implementing predictive models into clinical practice requires seamless integrat
 ### 9. Privacy and Security Concerns:
 Health care data, especially patient-related information, is sensitive and subject to strict privacy regulations. Developing predictive models that comply with privacy laws while still providing useful insights is a challenge in the field of breast cancer prediction.
 
-Libraries Used:
-Pandas,SeaborN,Numpy,Matplotlib,LabelEncoder,StandardScaler,Sklearn
+## Libraries Used:
+### Pandas,SeaborN,Numpy,Matplotlib,LabelEncoder,StandardScaler,Sklearn
 
 
 
