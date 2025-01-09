@@ -97,20 +97,20 @@ Univariate feature selection using Logistic Regression,  SVM, Naive Bayes, Decis
 Divide the dataset into training and testing sets. The training set is used to train the model, and the testing set is used to evaluate its performance.
 ### 5. Choosing a Model:
 Select a pattern recognition or machine learning model suitable for classification tasks. Common models for binary classification like breast cancer prediction include:
-Logistic Regression
-Support Vector Machine
-Naive Bayes
-Decision Tree
-Random Forest
+- Logistic Regression
+- Support Vector Machine
+- Naive Bayes
+- Decision Tree
+- Random Forest
 ### 6. Model Training:
 Train the selected model using the training dataset. The model learns patterns and relationships between input features and the target variable (presence or absence of breast cancer).
 ### 7.Model Evaluation:
 Evaluate the model's performance using the testing dataset. Common evaluation metrics include:
-Accuracy
-Recall
-Specificity
-Precision
-F1 Score
+- Accuracy
+- Recall
+- Specificity
+- Precision
+- F1 Score
 ### 8. Hyperparameter Tuning:
 Fine-tune the model's hyperparameters to optimize its performance. This step may involve using techniques like grid search or random search.
 ### 9. Validation:
@@ -121,15 +121,15 @@ Once satisfied with the model's performance, deploy it to make predictions on ne
 Monitor the model's performance over time and update it as needed to maintain accuracy, especially if the data distribution changes.  
 
 ## Models Used:
-PCA with dimensionality reduction
-Logistic Regression
-Support Vector Machine(SVM)
-Naive Bayes
-Decision Tree
-Random Forest
-DBSCAN
-Parzen Windows
-Hierarchical Clustering
+- PCA with dimensionality reduction
+- Logistic Regression
+- Support Vector Machine(SVM)
+- Naive Bayes
+- Decision Tree
+- Random Forest
+- DBSCAN
+- Parzen Windows
+- Hierarchical Clustering
 
 ## Models Performance:
 1.Accuracy:
